@@ -1,0 +1,115 @@
+{
+  "main": {
+    "name":"حجت گهرگزی",
+    "occupation":"Software designer & Senior java developer",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"",
+    "contactmessage":"Contact me",
+    "email": "h.gohargazi@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"Majidieh",
+      "city":"Tehran",
+      "state":"Tehran",
+      "zip": ""
+    },
+    "website": "https://h-gohargazi.github.io",
+    "resumedownload":"./resume.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/h-gohargazi",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Tarbiat modarres university of tehran (TMU)",
+        "degree":"MSc in computer engineering - software, grade 16.5",
+        "graduated":"October 2012",
+        "description":"Courses: Advanced Software engineering, Machine learning."
+      },
+      {
+        "school":"Shahid bahonar university of kerman",
+        "degree":"BSc in computer engineering, grade 17.31",
+        "graduated":"February 2009",
+        "description":"Courses: OOP, Software engineering, Database principals"
+      }
+    ],
+    "work":[
+      {
+        "company":"Informatics Services Corporation (ISC)",
+        "title":"Software designer & senior java developer",
+        "years":"August 2017 - Present",
+        "description":""
+      },
+      {
+        "company":"Khadamat rayan eqtesad novin",
+        "title":"software designer & developer",
+        "years":"October 2012 - August 2017",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"Spring boot, security, data, AOP",
+        "level":"90%"
+      },
+      {
+        "name":"JPA, hibernate",
+        "level":"90%"
+      },
+      {
+        "name":"ReactJs, html, css",
+        "level":"50%"
+      },
+      {
+        "name":"EJB, MDB",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Imen fraud management system",
+        "category":"Fraud management system for national payment systems (ACH, RTGS, Pichak)",
+        "image":"canadian-wanderlust.jpg",
+        "url":""
+      },
+      {
+        "title":"Kavosh fraud management system",
+        "category":"Fraud management system for banking card switch systems",
+        "image":"fury-fighting-gear.jpg",
+        "url":""
+      },
+      {
+        "title":"Private banking",
+        "category":"Wealth management system for VIP customers of Eqtesad novin bank",
+        "image":"original-thai-food.jpg",
+        "url":""
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Hojjat Gohargazi must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
