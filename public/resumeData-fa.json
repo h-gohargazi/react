@@ -4,10 +4,10 @@
     "occupation":"Software designer & Senior java developer",
     "description":"",
     "image":"profilepic.jpg",
-    "bio":"",
+    "bio":"Experienced Software designer and java developer with a demonstrated history of working in the banking industry. Skilled in Spring (boot, data, AOP, security), JPA and Hibernate. Strong engineering professional with a Master of Science (M.Sc.) focused in Computer, Software Engineering from Tarbiat Modares University.",
     "contactmessage":"Contact me",
     "email": "h.gohargazi@gmail.com",
-    "phone": "555-555-5555",
+    "phone": "",
     "address":{
       "street":"Majidieh",
       "city":"Tehran",
@@ -34,13 +34,13 @@
     "education":[
       {
         "school":"Tarbiat modarres university of tehran (TMU)",
-        "degree":"MSc in computer engineering - software, grade 16.5",
+        "degree":"MSc in computer engineering - software",
         "graduated":"October 2012",
         "description":"Courses: Advanced Software engineering, Machine learning."
       },
       {
         "school":"Shahid bahonar university of kerman",
-        "degree":"BSc in computer engineering, grade 17.31",
+        "degree":"BSc in computer engineering",
         "graduated":"February 2009",
         "description":"Courses: OOP, Software engineering, Database principals"
       }
@@ -62,11 +62,19 @@
     "skills":[
       {
         "name":"Spring boot, security, data, AOP",
-        "level":"90%"
+        "level":"97%"
       },
       {
         "name":"JPA, hibernate",
+        "level":"97%"
+      },
+      {
+        "name":"Object oriented design & programming",
         "level":"90%"
+      },
+      {
+        "name":"Software architecture",
+        "level":"70%"
       },
       {
         "name":"ReactJs, html, css",
@@ -83,24 +91,29 @@
       {
         "title":"Imen fraud management system",
         "category":"Fraud management system for national payment systems (ACH, RTGS, Pichak)",
-        "image":"canadian-wanderlust.jpg",
+        "requirements":"Rule engine, Online and soft real time, Batch processing, Concurrency, ReST api, Messaging",
+        "technologies":"Spring (boot, security, data, AOP), JPA + hibernate, React JS",
+        "image":"",
         "url":""
       },
       {
         "title":"Kavosh fraud management system",
         "category":"Fraud management system for banking card switch systems",
-        "image":"fury-fighting-gear.jpg",
+        "requirements":"Rule engine, Online and soft real time, Concurrency, ReST api, Messaging",
+        "technologies":"Spring (boot, security, data, AOP), JPA + hibernate, React JS",
+        "image":"",
         "url":""
       },
       {
         "title":"Private banking",
-        "category":"Wealth management system for VIP customers of Eqtesad novin bank",
-        "image":"original-thai-food.jpg",
+        "category":"Capital management system for VIP customers of Eqtesad novin bank",
+        "requirements":"",
+        "technologies":"Spring (core, security, AOP), JPA + hibernate, JSF (prime faces)",
+        "image":"",
         "url":""
       }
     ]
-  },
-  "testimonials":{
+  },  "testimonials":{
     "testimonials":[
       {
         "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",

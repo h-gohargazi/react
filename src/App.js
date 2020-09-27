@@ -53,7 +53,7 @@ componentDidMount(){
     return (
         <IntlProvider locale={this.state.lang} timeZone="Asia/Tehran">
         <div className="App">
-        <Header data={this.state.resumeData.main} langCallback={this.onChangeLang}/>
+        <Header data={this.state.resumeData.main} lang={(this.state.lang === 'en' ? 'fa' : 'en')} langCallback={this.onChangeLang}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
@@ -65,9 +65,9 @@ componentDidMount(){
     );
   }
 
-  onChangeLang = lang => {
+  onChangeLang = () => {
       const l = this.state.lang;
-      this.setState({lang: l === 'en' ? 'fa' : 'en'});
+      this.setState({lang: l === 'en' ? 'fa' : 'en'}, ()=> this.getResumeData());
   }
 }
 

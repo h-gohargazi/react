@@ -29,7 +29,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><img src={""} onClick={() => this.props.langCallback()} alt="lang" className="smoothscroll" /></li>
+            {/*<li><img src={`./images/${this.props.lang}.png`} onClick={() => this.props.langCallback()} alt="lang"  /></li>*/}
             {/*<li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>*/}
             {/*<li><a className="smoothscroll" href="#contact">Contact</a></li>*/}
          </ul>
